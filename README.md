@@ -1,4 +1,5 @@
 # Weather Website
+![image](https://github.com/user-attachments/assets/19cbd35d-d4d8-4a90-8bfc-40659a24f780)
 
 A simple weather application that displays current weather information for any city.
 
