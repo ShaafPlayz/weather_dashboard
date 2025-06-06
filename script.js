@@ -1,8 +1,6 @@
-const apiKey = "92f094701cac4eb2ae2230847250305";
-
 function getWeather() {
     const city = document.getElementById("city").value;
-    const apiUrl = `http://api.weatherapi.com/v1/current.json?key=${apiKey}&q=${city}`;
+    const apiUrl = `/api/weather/${encodeURIComponent(city)}`;
     let tempera = 0;
 
     fetch(apiUrl)
